@@ -23,21 +23,24 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   margin: 0;
 }
 
-body {
-  /* 3. Add accessible line-height */
-  line-height: 1.5;
-  /* 4. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
-}
-
 /* Add styles here! */
 
-.title {
-  padding: 24px 0px;
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .intro-chunk {
-  max-width: 400px;
+  max-width: 415px;
   padding: 8px 16px;
 }
 
@@ -45,10 +48,11 @@ strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
 main {
   background-color: hsl(0deg, 0%, 40%);
-  border: solid hsl(0deg, 0%, 60%);
-  border-width: 8px 0px 0px;
 }
 
 .max-width-wrapper {
@@ -60,8 +64,7 @@ main {
 .card {
   padding: 8px 16px;
   background-color: hsl(0deg, 0%, 100%);
-  border: solid hsl(0deg, 0%, 60%);
-  border-width: 0px 0px 8px 0px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .indented-heading {
