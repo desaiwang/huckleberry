@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -8,5 +8,71 @@ body {
   margin: 0;
   padding: 0;
 }
+/*Josh Comeau's CSS Reset: 
+https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
 
 /* Add styles here! */
+
+.title {
+  padding: 24px 0px;
+}
+
+.intro-chunk {
+  max-width: 400px;
+  padding: 8px 16px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border: solid hsl(0deg, 0%, 60%);
+  border-width: 8px 0px 0px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 48px 0px;
+}
+
+.card {
+  padding: 8px 16px;
+  background-color: hsl(0deg, 0%, 100%);
+  border: solid hsl(0deg, 0%, 60%);
+  border-width: 0px 0px 8px 0px;
+}
+
+.indented-heading {
+  width: max-content;
+  margin-left: -24px;
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 8px 24px 8px 24px;
+  border: solid hsl(45deg, 100%, 40%);
+  border-width: 0px 0px 8px 0px;
+}
+
+p {
+  margin: 16px 0px;
+}
